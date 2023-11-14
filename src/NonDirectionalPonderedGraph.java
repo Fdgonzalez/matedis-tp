@@ -120,5 +120,5 @@ public class NonDirectionalPonderedGraph<T> implements Graph<T> {
             added += 1;
         }
         return tree;
-    }
+    } // Orden aristas * log (vertices)
 }
